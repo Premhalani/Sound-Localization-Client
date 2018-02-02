@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textAmplitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amplitude" />
+
+    <TextView
+        android:id="@+id/textDecibel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intensity" />
+
+    <TextView
+        android:id="@+id/textFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frequency" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceId"
+        android:text="Device Id "/>
+
+    <EditText
+        android:id="@+id/ipAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/ip_address" />
+
+    <EditText
+        android:id="@+id/inputFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/inputFrequency" />
+
+    <Button
+        android:id="@+id/StartRecordingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_record" />
+
+    <Button
+        android:id="@+id/StopRecordingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_record" />
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset" />
+</LinearLayout>
